@@ -18,8 +18,8 @@ The complete files are:
 <ul>
 <li> part 1: ETL_function_test.ipynb </li>
 <li> part 2: ETL_clean_wiki_movies.ipynb </li>
-<li> part 3: Movies_with_ratings.ipynb </li>
-<li> part 4: ETL_clean_kaggle_data </li>
+<li> part 3: ETL_clean_kaggle_data.ipynb </li>
+<li> part 4: ETL_create_database.ipynb </li>
 
 
 Final count of two data sets in Postgres: 
