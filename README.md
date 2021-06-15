@@ -35,11 +35,11 @@ and
   
   
 ## The journey was tough. 
-on part 2: The wiki_movie_df kept printing out as a list, not a df. I worked with many sources for hours after trying to troubleshoot for hours. Including with two amazing askBCS humans who ultimattely threw up thier hands after being super kind and thorough. I had already pulled apart each code block to test it but I learned a lot more about code dissection. After three hours, I was sent this message: 
+on part 2: The wiki_movie_df kept printing out as a list, not a df. I worked with many sources for hours after trying to troubleshoot for hours. Including with two amazing askBCS humans who ultimately threw up their hands after being super kind and thorough. I had already pulled apart each code block to test it but I learned a lot more about code dissection. After three hours of combined effort, my aid sent me this message, mostly to validate and document our efforts: 
   
   <img width="465" alt="Screen Shot 2021-06-13 at 6 05 28 PM" src="https://user-images.githubusercontent.com/14239715/121823242-065c9180-cc72-11eb-9941-af2f8e9daa7e.png">
 
-BUT I kept going and got to the bottom of the problem**** Hurray, seriously was a 15 hour problem. This line of code was the issue. It was embedded deep in a large function: 
+BUT I kept going and got to the bottom of the problem on my own**** Hurray, seriously was a 15 hour problem. This line of code was the issue. It was embedded deep in a large function: 
 
 I had an extra line of partial code:release_date.str.extract(f'({date_form_one}|{date_form_two}|{date_form_three}|{date_form_four})')[0]
 
