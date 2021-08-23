@@ -51,4 +51,9 @@ it was not re-parsing from the str.extract into a df.
 
 on part 3 and 4 I stumbled a few times but made it through. 
 
-I am deeply proud to finish this work. 
+I am deeply proud to finish this work.
+  
+  
+### Code sample of RegEx with my own comments for clarity of code
+  <img width="944" alt="Screen Shot 2021-08-23 at 2 07 10 PM" src="https://user-images.githubusercontent.com/14239715/130495591-80c64c63-c15d-4ef5-b94a-d10eb0256bd8.png">
+
